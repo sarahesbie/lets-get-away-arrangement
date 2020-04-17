@@ -49,20 +49,31 @@ end
   2.times do
     use_synth :dsaw
     play 50
+    sleep 2.25
+    play 50
     sleep 2
     play 50
-    sleep 1.75
-    play 50
-    sleep 1.25
+    sleep 1.5
   end
   
   2.times do
     use_synth :dsaw
     play 57
+    sleep 2.25
+    play 57
     sleep 2
     play 57
-    sleep 1.75
-    play 57
-    sleep 1.25
+    sleep 1.5
   end
+end
+
+#TODO
+1.times do
+  use_synth :dsaw
+  play 47
+  sleep 4
+  play 47
+  sleep 0.5
+  play 47
+  sleep 0.5
 end
